@@ -9,6 +9,7 @@ public class CharnelHouseEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "CharnelHouse" } );
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
+		ExtraModuleNames.Add("CharnelHouse");
 	}
 }

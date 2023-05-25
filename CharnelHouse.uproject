@@ -7,7 +7,14 @@
 		{
 			"Name": "CharnelHouse",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG",
+				"Slate",
+				"SlateCore",
+				"Blutility"
+			]
 		}
 	],
 	"Plugins": [

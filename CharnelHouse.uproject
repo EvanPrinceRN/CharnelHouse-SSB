@@ -4,11 +4,6 @@
 	"Category": "",
 	"Description": "",
 	"Modules": [
-		{
-			"Name": "CharnelHouse",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
 	],
 	"Plugins": [
 		{
